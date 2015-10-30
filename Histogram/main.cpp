@@ -23,13 +23,6 @@ int main(int argc, char *argv[])
     //えせ正規分布　今回はここが重要ではないので省略。
     for(int i=0;i<200;i++){
         double rand = qrand()%100;
-        rand = rand /1000;
-        //rand = rand /1000;// *-1;
-//        if(rand > 50){
-//            rand -= qrand()%20;
-//        }else{
-//            rand += qrand()%20;
-//        }
         dataList.append(rand);
     }
 
