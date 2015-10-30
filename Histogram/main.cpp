@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
     QList<double> dataList;
     qsrand( QTime::currentTime().msec() );
 
-    //えせ正規分布　今回はここが重要ではないので省略。
+    //てきとう分布　今回はここが重要ではないので省略。
     for(int i=0;i<200;i++){
         double rand = qrand()%100;
         dataList.append(rand);
